@@ -1,4 +1,3 @@
-cat > preprocess.py << 'EOF'
 # preprocess.py
 import json
 import pandas as pd
@@ -74,4 +73,3 @@ if __name__ == "__main__":
     output_file = sys.argv[2] if len(sys.argv) > 2 else None
     
     process_lolchess_data(input_file, output_file)
-EOF
